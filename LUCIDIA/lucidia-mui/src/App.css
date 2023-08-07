@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #1E1E1E;
+
+}
+.styleFrame {
+  position: relative;
+  padding: 3px;
+  /* width: 200px;
+  height: 50px; */
+  background: #fff;
+
+  clip-path: polygon(92% 0, 100% 25%, 100% 100%, 11% 100%, 0% 75%, 0 0);
+}
+.styleFrameInner {
+  position: absolute;
+  /* padding: 1px; */
+  /* width: 200px;
+  height: 50px; */
+  background: #32205A;
+  color: #fff;
+  clip-path: polygon(92% 0, 100% 25%, 100% 100%, 11% 100%, 0% 75%, 0 0);
+}
+@font-face {
+  font-family: "Light";   /*Can be any text*/
+  src: local("ClashGrotesk"),
+    url("./fonts/ClashGrotesk_Complete/Fonts/OTF/ClashGrotesk-Light.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Medium";   /*Can be any text*/
+  src: local("ClashGrotesk"),
+    url("./fonts/ClashGrotesk_Complete/Fonts/OTF/ClashGrotesk-Medium.otf") format("truetype");
+}
+@font-face {
+  font-family: "SemiBold";   /*Can be any text*/
+  src: local("ClashGrotesk"),
+    url("./fonts/ClashGrotesk_Complete/Fonts/OTF/ClashGrotesk-Semibold.otf") format("truetype");
+}
+@font-face {
+  font-family: "Bold";   /*Can be any text*/
+  src: local("ClashGrotesk"),
+    url("./fonts/ClashGrotesk_Complete/Fonts/OTF/ClashGrotesk-Bold.otf") format("truetype");
+}
+
