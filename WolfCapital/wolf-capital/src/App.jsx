@@ -2,13 +2,7 @@ import { Box } from "@mui/material";
 import "./App.css";
 import LandingPage from "./LandingPage/index";
 import { Routes, Route } from "react-router-dom";
-import SideBar from "./Sidebar/SideBar";
 import AdminDrawer from "./components/AdminDrawer";
-import Dashboard from "./components/Dashboard/Dashboard";
-import Staking from "./components/Staking";
-import Wolfpacks from "./components/Wolfpacks";
-import Battles from "./components/Battles";
-import AlphaaNFT from "./components/AlphaaNFT";
 
 function App() {
   return (

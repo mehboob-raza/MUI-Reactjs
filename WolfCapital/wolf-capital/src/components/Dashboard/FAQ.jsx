@@ -35,7 +35,7 @@ const FAQ = () => {
 
   return (
     <Box mt={6}>
-      <Container component="lg">
+      <Container maxWidth="lg">
         <Box
           sx={{
             background: "linear-gradient(45deg, #1B1B1B 30%, #282828 70%)",

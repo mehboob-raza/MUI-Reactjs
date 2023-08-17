@@ -22,7 +22,7 @@ const cardsData = [
 const TopCards = () => {
   return (
     <Box>
-      <Container>
+      <Container maxWidth="lg">
         <Box display="flex" gap={2}>
           {cardsData.map((data, i) => {
             return (

@@ -129,7 +129,7 @@ function SideBar({ children }) {
       <CssBaseline />
 
       <Drawer
-        container={container}
+        // container={container}
         variant="permanent"
         open={open}
         sx={{
