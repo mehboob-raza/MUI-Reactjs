@@ -133,6 +133,7 @@ function SideBar({ children }) {
         variant="permanent"
         open={open}
         sx={{
+          display: { md: "flex", sm: "flex", xs: "none" },
           ".MuiDrawer-paper": {
             background: "#191919",
             borderRight: "1px solid #242424",

@@ -17,7 +17,7 @@ const Button1 = ({ children, ...props }) => {
           width: props?.width ? props?.width : "auto",
           p: 1,
           fontSize: { md: "16px", sm: "14px", xs: "12px" },
-          borderRadius: "10px",
+          borderRadius: props?.borderRadius ? props.borderRadius : "10px",
           background: props?.background ? props.background : "transparent",
           fontWeight: props?.fontWeight ? props.fontWeight : "bold",
 

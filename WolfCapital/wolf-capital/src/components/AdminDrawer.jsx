@@ -3,9 +3,9 @@ import { Box } from "@mui/material";
 import { Route, Routes } from "react-router-dom";
 import Dashboard from "./Dashboard/Dashboard";
 import Staking from "./Staking/Staking";
-import Wolfpacks from "./Wolfpacks";
-import Battles from "./Battles";
-import AlphaaNFT from "./AlphaaNFT";
+import Wolfpacks from "./wolfpack/Wolfpacks";
+import AlphaaNFT from "./alphaNFTs/AlphaaNFT";
+import Battles from "./battles/Battles";
 
 const AdminDrawer = () => {
   return (
